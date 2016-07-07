@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is my resume website!">
+  <script src="https://use.fontawesome.com/efa1f976d6.js"></script>
+  <link type="text/css" rel="stylesheet" href="style.css" >
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <!-- for FF, Chrome, Opera -->
+  <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
+
+  <!-- for IE -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicons/favicon.ico"/>
+  <title>Ben Basinski - Resume</title>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="nav-bar">
+      <div class="nav-center">
+        <a onclick="scrollToMe()" class="nav-element">Me</a>
+        <a onclick="scrollToSchool()" class="nav-element">School</a>
+        <a onclick="scrollToEmployment()" class="nav-element">Employment</a>
+        <h1 class="logo"><strong>BEN</strong>BASINSKI</h1>
+        <a onclick="scrollToAwards()" class="nav-element">Awards</a>
+        <a onclick="scrollToSkills()" class="nav-element">Skills</a>
+        <a onclick="scrollToContact()" class="nav-element">Contact</a>
+      </div>
+    </div>
+    <!--<div class="nav-blur"></div>-->
+
+    <div class="me">
+      <div class="me-container">
+        <div class="me-left">
+          <a href="https://www.linkedin.com/in/ben-basinski-84958b121">
+            <img src="assets/img/profile.png" alt="Ben Basinski" draggable="false">
+          </a>
+        </div>
+        <div class="me-right">
+          <span class="font-light info-element medium" style="justify-content: left">My name is Ben. I'm a student.</span>
+          <div>
+            <hr style="border:none; background: #FFFFFF; height: 1px; width: 70px">
+          </div>
+          <span class="font-regular info-element">Location:</span>
+          <span class="font-light small info-element">Seattle, WA</span>
+          <span class="font-regular info-element">Age:</span>
+          <span class="font-light small info-element">19 years</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="school section">
+      <div class="section-title">
+        <div>School</div>
+        <hr style = "border: none; background:#FFFFFF; height:1px; width: 80px; margin-top: 0" />
+      </div>
+
+      <div class="school-container">
+
+        <div class="school-left">
+          <a href="http://www.washington.edu/">
+            <h1 style="margin-bottom: 0">University of Washington</h1>
+          </a>
+          <span class="date" style="margin-bottom: 10px">Sep 2015 - Jun 2019</span>
+          <a href="http://www.hcde.washington.edu/">
+            <h2 class="grey">B.S. Human-Centered</h2>
+          </a>
+          <a href="http://www.hcde.washington.edu/">
+            <h2 class="grey">Design and Engineering</h2>
+          </a>
+          <span class="date grey">(in-progress)</span>
+        </div>
+        <div class="school-right">
+          <a href="http://www.washington.edu/">
+            <img class="uw-img" src="assets/img/uw.png" alt="University of Washington" draggable="false">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="employment section">
+      <div class="section-title">
+        <div>Employment</div>
+        <hr style = "border: none; background:#FFFFFF; height:1px; width: 140px; margin-top: 0" />
+      </div>
+
+      <div class="employment-container">
+
+        <div class="employment-left">
+          <a href="http://www.microsoftstore.com/seattle">
+            <img class="store-img" src="assets/img/store.png" alt="Microsoft Store" draggable="false">
+          </a>
+        </div>
+        <div class="employment-right">
+          <a href="http://www.microsoftstore.com/seattle"><h1 style="margin-bottom: 0">Microsoft Store</h1></a>
+          <span class="date">Oct 2015 - Current</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="awards section">
+      <div class="section-title">
+        <div>Awards</div>
+        <hr style = "border: none; background:#FFFFFF; height:1px; width: 90px; margin-top: 0" />
+      </div>
+
+      <div class="awards-container">
+
+        <a href="http://www.danielsfund.org/Scholarships/">
+          <h1 class="grey daniels">Daniels Fund Scholarship</h1>
+        </a>
+        <a href="http://www.danielsfund.org/Scholarships/">
+          <img src="assets/img/df.png" alt="Daniels Fund" style="width: 150px; height: 150px;" draggable="false">
+        </a>
+        <h1 class="grey" style="font-weight: 300">Character - Leadership - Service</h1>
+
+      </div>
+
+    </div>
+
+    <div class="skills section">
+      <div class="section-title">
+        <div>Skills</div>
+        <hr style = "border: none; background:#FFFFFF; height:1px; width: 65px; margin-top: 0" />
+      </div>
+      <div class="skills-container">
+
+        <div class="skills-left">
+          <h2 style="margin-top: 10px">Coding</h2>
+          <hr style = "border: none; background:#FFFFFF; height:1px; width: 60px; margin: 0 0 10px 0" />
+          <h4>Java
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+          </h4>
+          <h4>HTML
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+          </h4>
+          <h4>CSS
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+          </h4>
+
+          <h2 style="margin-top: 10px">Other</h2>
+          <hr style = "border: none; background:#FFFFFF; height:1px; width: 50px; margin: 0 0 10px 0" />
+          <h4>Sales
+            <div>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+          </h4>
+        </div>
+        <div class="skills-right">
+            <h2 style="margin-top: 10px">Tools</h2>
+            <hr style = "border: none; background:#FFFFFF; height:1px; width: 50px; margin: 0 0 10px 0" />
+            <h4>Adobe Photoshop
+              <div>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </h4>
+            <h4>Sketch 3
+              <div>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </h4>
+            <h4>IntelliJ
+              <div>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </h4>
+            <h4>GitHub
+              <div>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </h4>
+            <h4>Microsoft Office
+              <div>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </h4>
+            <h4>MacOS
+              <div>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+            </h4>
+            <h4>Windows
+              <div>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+            </h4>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="contact section">
+      <div class="section-title">
+        <div>Contact</div>
+        <hr style = "border: none; background:#FFFFFF; height:1px; width: 90px; margin-top: 0" />
+      </div>
+
+      <div class="contact-container">
+
+        <div class="contact-left">
+          <a class="contact-link" href="mailto:benbasinski97@gmail.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            benbasinski97@gmail.com</a>
+          <a class="contact-link" href="mailto:bbasinsk@uw.edu">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            bbasinsk@uw.edu</a>
+          <a class="contact-link" href="https://www.linkedin.com/in/ben-basinski-84958b121">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            LinkedIn - Ben Basinski</a>
+        </div>
+        <div class="contact-right">
+          <a class="contact-link" href="tel:+1-970-433-5771">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            970.433.5771</a>
+          <a class="contact-link" href="https://twitter.com/BenBasinski/">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            Twitter - BenBasinski</a>
+          <a class="contact-link" href="https://www.instagram.com/benbasinski97/">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            Instagram - benbasinski97</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script>
+    function scrollToMe() {
+      window.scrollTo(0, 0);
+    }
+    function scrollToSchool() {
+      window.scrollTo(0, 408-72);
+    }
+    function scrollToEmployment() {
+      window.scrollTo(0, 408*2 - 72);
+    }
+    function scrollToAwards() {
+      window.scrollTo(0, 408*3 - 72);
+    }
+    function scrollToSkills() {
+      window.scrollTo(0, 408*4 - 72);
+    }
+    function scrollToContact() {
+      window.scrollTo(0, 408*5 - 72);
+    }
+  </script>
+
+
+</body>
+
+</html>
